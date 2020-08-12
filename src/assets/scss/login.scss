@@ -1,0 +1,25 @@
+.login-box{
+  width:100%;height:100%;
+  .bg-picture{
+    width: 100%;height: 100%;position: relative;
+    background-image: url("/static/img/full.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+  }
+  form{
+    position:absolute;
+    left: 50%;top:45%;    
+    margin-left: -190px;
+    margin-top: -225px;color: #172d2f;
+    padding: 2rem; width: 360px;
+    background-color: rgba(0,0,0,.2);
+    .box-label{width: 80px;text-align: left;font-weight: 700;}
+    a{color: #172d2f;}
+  }
+  
+}
